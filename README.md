@@ -1,2 +1,2 @@
 # gal.cohen
-ex1
+Gal Cohen
