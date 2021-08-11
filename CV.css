@@ -1,7 +1,5 @@
 ﻿body {
-
-
-                     
+             
     background-image: url("image.jpg");
 }
 h1 {
@@ -9,15 +7,16 @@ h1 {
     text-align: center;
 }
 
-..grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
 
 
 .item1 {
-    grid-column: 1 / span 3;
-    background-color: #eeef6d
+    grid-column: 1 / 5;
+    background-color: #eeef6d 
+    
 }
 
 .item2 {
@@ -33,7 +32,6 @@ h1 {
     background-color: #ed99de
 }
 
-       
 
 
    
