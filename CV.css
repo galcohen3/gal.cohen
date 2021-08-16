@@ -1,17 +1,25 @@
-﻿body {
+﻿
+
+:root {
+    --sunset: #ff7d6b;
+}
+body {
              
     background-image: url("sun.jpg");
 }
 h1 {
-    color: #ff7d6b;
+    color:var(--sunset);
     text-align: center;
 }
 h2 {
-    color: #ff7d6b;
+    color: black;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 20px
 }
 
 
