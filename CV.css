@@ -3,6 +3,16 @@
 :root {
     --sunset: #ff7d6b;
 }
+
+@keyframes Animation {
+    from {
+        background-color:lightpink;
+    }
+
+    to {
+        background-color:white;
+    }
+}
 body {
              
     background-image: url("sun.jpg");
@@ -19,7 +29,11 @@ h2 {
     grid-template-columns: auto auto auto auto;
     padding: 30px;
     border: 2px solid white;
-    margin: 20px
+    margin: 20px ;
+    animation-name: Animation;
+    animation-duration: 5s;
+    border-radius: 15%;
+    animation-iteration-count: infinite;
 }
 
 
