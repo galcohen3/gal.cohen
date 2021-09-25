@@ -1,0 +1,64 @@
+﻿
+
+:root {
+    --sunset: #ff7d6b;
+}
+
+@keyframes Animation {
+    from {
+        background-color:lightpink;
+    }
+
+    to {
+        background-color:white;
+    }
+}
+body {
+             
+    background-image: url("sun.jpg");
+}
+h1 {
+    color:var(--sunset);
+    text-align: center;
+}
+h2 {
+    color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 20px ;
+    animation-name: Animation;
+    animation-duration: 5s;
+    border-radius: 15%;
+    animation-iteration-count: infinite;
+}
+
+
+.item1 {
+    grid-column: 1 / 5;
+    background-color: #e48074
+}
+
+.item2 {
+    grid-column: 1 / 5;
+    background-color:white
+}
+.item3 {
+    grid-column: 1 / 5;
+    background-color: white
+}
+.item4 {
+    grid-column: 1 / 5;
+    background-color: white
+}
+.item5 {
+    grid-column: 1 / 5;
+    background-color: #e48074
+}
+
+
+
+   
