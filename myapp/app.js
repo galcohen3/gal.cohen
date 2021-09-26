@@ -10,8 +10,10 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 // use static files located in 'public' dir
-const publicDirectory = path.join(__dirname, './public');
-app.use(express.static(publicDirectory));
+app.use(express.static('public/stylesheets'));
+app.use(express.static('public/images'));
+app.use(express.static('public/javascripts'));
+
 
 // simple route
 app.get("/", (req, res) => {
